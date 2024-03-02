@@ -1,0 +1,267 @@
+.select-card{
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    outline: none;
+    width: 60%;
+}
+
+.card-type{
+    padding: 10px 13px;
+    background: orange;
+    border-radius: 10px;
+}
+
+.orange-border{
+    border: 1px solid orange;
+
+}
+
+.income-select{
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+    .income{
+        width: 25%;
+        padding: 10px;
+
+        border-right: 1px solid orange;
+    }
+
+    .income:nth-child(1){
+        background-color: orange;
+        border-radius: 10px;
+    }
+
+    .income:nth-child(4){
+                 border: none;
+          }
+}
+
+
+.call-back{
+    width: 40%;
+}
+
+.input-user{
+    width: 60%;
+    border-bottom: 1px solid gray;
+    align-items: center;
+
+         img{
+            width: 21px;
+            height: 21px;
+           }
+
+        input{
+            border:none;
+            outline: none;
+            padding: 5px;   
+           }
+    }
+
+
+    .main-class{
+        left: 0% !important;
+    }
+
+    .btn-apply{
+        padding: 12px 10px;
+        background: orange;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+
+.banking-wapper{
+
+    button{
+        width: 80%;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid orange;
+    }
+
+    .digital-scan{
+        bottom: 0;
+        right: 0;
+        width: 47%;
+        bottom: 12%;
+        gap: 5px;
+    
+        .scan-wapper{
+            width: 50%;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+    
+            p,a{
+                font-size: .7rem;
+            }
+            a{
+                color: orange;
+            }
+    
+            img{
+                width: 30%;
+                object-fit: contain;
+            }
+        }
+    
+    }
+
+
+    h4{
+        color: gray;
+    }
+}
+
+
+
+    .offers-wapper{
+        .offer-child{
+            background-color: #a41906;
+            width: 60%;
+            right: 0;
+            border-radius: 10px 0 0 10px;
+        }
+
+     
+        .offer-btn{
+            padding: 10px 23px;
+            background-color: orange !important;
+        }
+
+        .card{
+            .price-fonts{
+                font-size: .7rem;
+            }
+        }
+    }
+
+
+    //  footer section stert here
+
+
+    .footer-wapper{
+        width: 100%;
+
+
+        .border-right{
+            border-right: .5px solid #afafaf;
+        }
+
+        .bottom{
+            border-bottom: 0.5px solid #5f5f5f;
+        }
+        
+
+
+        .mian-width{
+            width: 80%;
+            
+        }
+
+
+        .find-info {
+            height: 120px;
+            display: flex;
+            justify-content: center;
+
+            a{
+                font-size: 1rem;
+
+                @media (max-width:1030px) {
+                    font-size: .8rem;
+                }
+            }
+        }
+
+        .find-info{
+            background-color: #f37e20;
+        }
+
+
+        .main-data{
+            width: 90%;
+            margin: 0 auto;
+            right: 5%;
+            text-align: center;
+            top: 11%;
+            background: #FFf;
+            padding: 30px;
+            border-radius: 20px;
+
+
+            select{
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #000;
+                width: 50%;
+            }
+        }
+
+        .data-footer{
+            width: 95%;
+            margin: 0 auto;
+
+
+            .comman-parent{
+                width: 50%;
+                .points{
+                    width: 50%;
+                }
+            }
+            .points{
+                width: 20%;
+            }
+
+          
+        }
+
+        .main-info{
+            background-color: #3d3d3d;
+
+            a{
+                color: #afafaf !important;
+            }
+
+            a:hover{
+                color: #fff;
+                transition: .5s;
+            }
+
+
+            
+    
+        }
+
+
+        @media (max-width:1024px) {
+
+            .data-footer{
+                 display: block !important;
+
+            }
+
+            .mian-width{
+                width: 100%;
+            }
+
+            .main-data{
+                top: 6%;
+            }
+        }
+
+
+        .bottom-info{
+            border-top: .5px solid #5f5f5f;
+        }
+    }
+
+
+  
